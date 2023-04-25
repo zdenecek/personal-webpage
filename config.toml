@@ -1,0 +1,74 @@
+baseURL = "https://zdenektomis.eu"
+theme = "devise"
+relativeURLs = true
+enableEmoji = true
+googleAnalytics = ""
+enableRobotsTXT = true
+copyright = " "
+defaultContentLanguage = 'en'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[languages]
+  [languages.en]
+ #   baseURL = "https://zdenektomis.eu"
+    title = "Zdeněk Tomis | Personal Website"
+    contentDir = 'content/en'
+    weight = 1
+  [languages.cs]
+#    baseURL = "https://zdenektomis.eu/cs"
+    title = 'Zdeněk Tomis | Osobní Stránka'
+    contentDir = 'content/cs'
+    languageCode = 'cs'
+
+    weight = 2
+
+
+# Main menu items
+# [[languages.en.menu.main]]
+#   name = "About"
+#   title = "About"
+#   url = "/about/"
+#   weight = -110
+# [[languages.en.menu.main]]
+#   name = "Posts"
+#   title = "Posts"
+#   url = "/post/"
+#   weight = -100
+  
+# [[languages.cs.menu.main]]
+#     name = "Tournaments"
+#     url = "/turnaje/"
+
+# Index menu items
+
+[[languages.en.menu.index]]
+  name = "Tournaments"
+  title = "Bridge tournaments"
+  url = "/tournaments/"
+  weight = -100
+
+[[languages.cs.menu.index]]
+  name = "Bridžové turnaje"
+  title = "Bridžové turnaje"
+  url = "/turnaje/"
+  weight = -100
+
+# Configuration Features
+[params]
+  description = "Computer Science Student at MFF CU"      # Your meta description of the site
+  header_title = "Zdeněk Tomis"              # Your header title
+  header_subtitle = "" # Your header subtitle
+  home_image = "/images/avatar.jpg"          # Path to header image starting from the static directory
+  recent_posts = 0                           # Max amount of recent posts to show
+  mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
+  [params.style]                             # CSS style overrides
+    backgroundColor = "#f8f9fa"
+    fontColor = "#212529"
+  [[params.social]]
+    fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
+    href = "http://github.com/zdenecek"      # Link to associate with icon (http://, https://, mailto:)
+  [[params.social]]
+    fa_icon = "fas fa-at fa-1x"
+    href = "mailto:zdnek.tomis@gmail.com"

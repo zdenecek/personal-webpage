@@ -1,0 +1,43 @@
+$primary: #0b7189;
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+img#home-image {
+    border: none;
+}
+
+#content {
+    max-width: 650px;
+}
+
+#content > :not(header) {
+    h1,
+    h2 {
+        letter-spacing: inherit;
+    }
+    h1 {
+        font-size: larger;
+    }
+    h2 {
+        font-size: large;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .flag img {
+        width: 1em;
+        height: 1em;
+    }
+
+    a,
+    a:hover,
+    a:visited {
+        text-decoration: none;
+        color: $primary;
+    }
+}
