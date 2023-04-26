@@ -12,8 +12,8 @@ Here I keep a list of tournaments I directed
 
 - Tournaments in the Prague Bridge Club
 - Czech Bridge Tour Havířov 
-  - [Main pairs tournament](https://matrikacbs.cz/Detail-turnaje.aspx?id=4853) ([dokumentace](http://www.bridgebase.6f.sk/results/ZT/2023/vc-havirov/start.php))
-  - [Side team tournament](https://matrikacbs.cz/Detail-turnaje.aspx?id=4854) ([dokumentace](http://www.bridgebase.6f.sk/results/ZT/2023/vc-havirov-tymy/start.php))
+  - [Main pairs tournament](https://matrikacbs.cz/Detail-turnaje.aspx?id=4853) ([documentation](http://www.bridgebase.6f.sk/results/ZT/2023/vc-havirov/start.php))
+  - [Side team tournament](https://matrikacbs.cz/Detail-turnaje.aspx?id=4854) ([documentation](http://www.bridgebase.6f.sk/results/ZT/2023/vc-havirov-tymy/start.php))
 
 ## 2022
 
