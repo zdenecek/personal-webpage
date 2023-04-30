@@ -19,9 +19,9 @@ Web browser is the most important tool I use and I get to spend most of my time 
 
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)  
   The best adblocker out there as of right now.
-- [The Tree Tab extension](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)  
+- [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)  
   A tab manager that allows you to organize your tabs into a tree structure. I use it to organize my tabs into groups and subgroups.
-- [Tab session manager](https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/)  
+- [Tab Session Manager](https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/)  
   A session manager that allows you to save and restore sessions. Useful to separate workspaces.
 - [Vimium](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)  
   Adds vim-like keybindings to Firefox. I use it to navigate the web without using the mouse. Although I am not a vim user, I find the keybindings to be quite useful.

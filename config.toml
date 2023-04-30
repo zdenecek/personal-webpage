@@ -17,14 +17,14 @@ title = true
 
 [languages]
   [languages.en]
- #   baseURL = "https://zdenektomis.eu"
+    # baseURL = "https://zdenektomis.eu"
     title = "Zdeněk Tomis | Personal Website"
     contentDir = 'content/en'
     weight = 1
    
 
   [languages.cs]
-#    baseURL = "https://zdenektomis.eu/cs"
+    # baseURL = "https://zdenektomis.eu/cs"
     title = 'Zdeněk Tomis | Osobní Stránka'
     contentDir = 'content/cs'
     languageCode = 'cs'

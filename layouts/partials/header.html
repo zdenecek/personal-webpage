@@ -3,7 +3,7 @@
 
     {{ if .Scratch.Get "home" }}
     <div class="row justify-content-center">
-        <a href="{{ .Site.Home.RelPermalink | relLangURL }}" class="text-decoration-none">
+        <a href="{{ .Site.Home.Permalink | absLangURL }}" class="text-decoration-none">
             <img id="home-image" class="rounded-circle"
                  {{ if (and (isset .Site.Params "home_image" ) (fileExists (printf "static/%s" (strings.TrimPrefix "/"
                  .Site.Params.home_image)))) }}
@@ -20,7 +20,7 @@
     {{ end }}
     <div class="row justify-content-center">
         <h2 class="m-0 mb-2 mt-4">
-            <a href="/" class="text-decoration-none">
+            <a href="{{ .Site.Home.Permalink | absLangURL }}" class="text-decoration-none">
                 {{ if isset .Site.Params "header_title" }}
                 {{ .Site.Params.header_title }}
                 {{ else }}

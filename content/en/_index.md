@@ -2,7 +2,7 @@
 layout: index
 ---
 
-Welcome to my personal website! I am a computer science student currently pursuing my computer science degree at the Faculty of [Mathematics and Physics at Charles University](https://www.mff.cuni.cz/en).
+Welcome to my personal website! I am a computer science student currently pursuing my computer science degree at [the Faculty of Mathematics and Physics at Charles University](https://www.mff.cuni.cz/en).
 
 This website serves as my little outlet and is for people who want to take a look at some of my work or interests.
 
