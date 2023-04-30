@@ -2,6 +2,7 @@
 translationKey: tournaments
 slug:  turnaje
 title: Turnaje, které jsem řídil
+tags: bridge
 ---
 
 # Turnaje, které jsem řídil
@@ -20,7 +21,7 @@ Na této stránce vedu seznam turnajů, které jsem řídil
 
 - Turnaje v Bridžovém klubu Praha
 - [3. liga](https://matrikacbs.cz/Detail-turnaje.aspx?id=4711)
-- [Vánoční párový turnaj HABRA](https://matrikacbs.cz/Detail-turnaje.aspx?id=4747)
+- [Vánoční párový turnaj HABRA](https://matrikacbs.cz/Detail-turnaje.aspx?id=4747) ([dokumentace](http://www.bridgebase.6f.sk/results/ZF/2022/VanocniHABRA/start.php))
 
 ## 2021
 - [Středoškolský pohár](https://matrikacbs.cz/Detail-turnaje.aspx?id=4479)

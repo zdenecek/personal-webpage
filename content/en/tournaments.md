@@ -2,6 +2,7 @@
 translationKey: tournaments
 slug:  tournaments
 title: Tournaments I directed
+tags: bridge
 ---
 
 # Tournaments I directed
@@ -19,7 +20,7 @@ Here I keep a list of tournaments I directed
 
 - Tournaments in the Prague Bridge Club
 - [3rd league](https://matrikacbs.cz/Detail-turnaje.aspx?id=4711)
-- [Christmas pairs HABRA](https://matrikacbs.cz/Detail-turnaje.aspx?id=4747)
+- [Christmas pairs HABRA](https://matrikacbs.cz/Detail-turnaje.aspx?id=4747) ([documentation](http://www.bridgebase.6f.sk/results/ZF/2022/VanocniHABRA/start.php))
 
 ## 2021
 - [Highschools cup](https://matrikacbs.cz/Detail-turnaje.aspx?id=4479)

@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+
+    {{/* Fill in unranslated pages */}}
+    {{ $pages := .Pages }}
+    {{ $lang := .Language }}
+    {{ range .Translations }}
+    {{ $pages = $pages | lang.Merge .Pages }}
+    {{ end }}
+
+   
+    <h1>{{ .Title }}</h1>
+    <div class="">
+        <ul class="list-unstyled">
+        {{ range $pages.ByDate.Reverse }}
+            <li>
+                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+                    {{ .Date | time.Format ":date_long" }}
+                </time>
+                <a href="{{ .RelPermalink }}">
+                    {{ if .Draft }}DRAFT: {{end}}{{ .Title }}
+                </a>
+                {{ if ne .Language $lang }}
+                <span>
+                    ({{ .Language  }})
+                </span>
+                {{ end }}
+                
+            </li>
+        {{ end }}
+        </ul>
+    </div>
+{{ end }}

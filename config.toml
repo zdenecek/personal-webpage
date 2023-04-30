@@ -10,20 +10,25 @@ defaultContentLanguage = 'en'
 [markup.goldmark.renderer]
   unsafe = true
 
+[markup.goldmark.parser.attribute]
+block = true
+title = true
+
+
 [languages]
   [languages.en]
  #   baseURL = "https://zdenektomis.eu"
     title = "Zdeněk Tomis | Personal Website"
     contentDir = 'content/en'
     weight = 1
+   
+
   [languages.cs]
 #    baseURL = "https://zdenektomis.eu/cs"
     title = 'Zdeněk Tomis | Osobní Stránka'
     contentDir = 'content/cs'
     languageCode = 'cs'
-
     weight = 2
-
 
 # Main menu items
 # [[languages.en.menu.main]]
@@ -44,16 +49,30 @@ defaultContentLanguage = 'en'
 # Index menu items
 
 [[languages.en.menu.index]]
-  name = "Tournaments"
+  name = "♣ Tournaments ♣"
   title = "Bridge tournaments"
   url = "/tournaments/"
   weight = -100
 
 [[languages.cs.menu.index]]
-  name = "Bridžové turnaje"
+  name = "♣ Bridžové turnaje ♣"
   title = "Bridžové turnaje"
   url = "/turnaje/"
   weight = -100
+
+[[languages.en.menu.index]]
+  name = "Blog"
+  title = "Blog"
+  url = "blog/"
+  weight = -100
+
+[[languages.cs.menu.index]]
+  name = "Blog"
+  title = "Blog"
+  url = "blog/"
+  weight = -100
+
+
 
 # Configuration Features
 [params]

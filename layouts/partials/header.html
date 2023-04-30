@@ -1,4 +1,7 @@
 <header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
+
+
+    {{ if .Scratch.Get "home" }}
     <div class="row justify-content-center">
         <a href="{{ .Site.Home.RelPermalink | relLangURL }}" class="text-decoration-none">
             <img id="home-image" class="rounded-circle"
@@ -14,6 +17,7 @@
                  {{ end }} />
         </a>
     </div>
+    {{ end }}
     <div class="row justify-content-center">
         <h2 class="m-0 mb-2 mt-4">
             <a href="/" class="text-decoration-none">
@@ -38,6 +42,7 @@
             {{ end }}
         </ul>
     </div>
+    {{ if .Scratch.Get "home" }}
     <div class="row justify-content-center">
 
         <ul id="nav-social" class="list-inline">
@@ -50,5 +55,6 @@
             {{ end }}
         </ul>
     </div>
+    {{ end }}
     <hr />
 </header>

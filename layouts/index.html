@@ -12,7 +12,7 @@
             <ul id="nav-links" class="list-inline mt-4">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.index }}
-                <li class="list-inline-item">
+                <li class="list-inline-item ml-4">
                     <a class="" href="{{  .URL | relLangURL }}" title="{{ .Title }}">{{.Name }}</a>
                 </li>
                 {{ end }}

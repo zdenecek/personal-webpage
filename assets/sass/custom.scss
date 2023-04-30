@@ -1,15 +1,30 @@
 $primary: #0b7189;
 
 body {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: "Caudex", "Gilda Display", Roboto, Helvetica, serif;
 }
 
 img#home-image {
     border: none;
 }
 
+
+
+
 #content {
     max-width: 650px;
+
+
+    &.bridge ul {
+        list-style-type: "\2663";
+        li {
+            padding-left: 5px;
+        }
+    
+        ul {
+            list-style-type: "\2662";
+        }
+    }
 }
 
 #content > :not(header) {
@@ -18,20 +33,30 @@ img#home-image {
         letter-spacing: inherit;
     }
     h1 {
-        font-size: larger;
+        font-size: x-large;
     }
     h2 {
         font-size: large;
+    }
+    h3 {
+        font-size: medium;
+    }
+    h4 {
+        font-size: small;
     }
 
     p {
         text-align: justify;
     }
 
-    .flag img {
-        width: 1em;
-        height: 1em;
-    }
+    .flag  {
+        display: inline-flex;
+        img {
+        width: .8em;
+        height: .8em;
+        padding-top: 2px;
+
+    }}
 
     a,
     a:hover,
