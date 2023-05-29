@@ -1,0 +1,46 @@
+#project-list {
+    margin-top: 2em;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 4em;
+    }
+
+    ul li.project {
+        display: flex;
+        gap: 1em;
+        grid-template-columns: 150px 1fr;
+
+        .project-image {
+            width: 150px;
+            flex-shrink: 0;
+        }
+
+        .project-main {
+            display: flex;
+            gap: 0.5em;
+            flex-direction: column;
+        }
+
+        .project-header {
+            display: flex;
+            gap: 1em;
+            align-items: center;
+
+            h3 {
+                margin-bottom: 0;
+            }
+        }
+
+        .project-keywords {
+            margin-top: auto;
+        }
+
+        a:not(.link),
+        a:visited:not(.link),
+        a:hover:not(.link) {
+            color: inherit;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+<div>
+
+     {{/*  hack  */}}
+    {{ range (first 1 .menu ) }}
+    {{ $id := .Menu }}
+        <ul id="nav-links" class="list-inline menu menu-{{ $id }}"  role="navigation">
+    {{ end }}
+    {{ $page := .page }}
+    
+    {{ range .menu }}
+        <li class="list-inline-item ml-4">
+            <a
+                class="menu-link"
+                href="{{  .URL | relLangURL }}"
+                title="{{  .Title }}"
+            >
+                {{ .Name }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>

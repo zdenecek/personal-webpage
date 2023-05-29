@@ -4,20 +4,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
 
-    {{/* Adds complete override capability */}}
+    {{/* CSS */}}
     {{ $overrideTemplate := resources.Get "sass/override.scss" }}
-    {{ $override := $overrideTemplate | resources.ExecuteAsTemplate "css/theme.scss" . | toCSS | minify }}
-    <link rel="stylesheet" href="{{ $override.RelPermalink }}">
+    {{ $customTemplate := resources.Get "sass/custom.scss" }}
+    {{ $override := $overrideTemplate | resources.ExecuteAsTemplate "css/theme.scss" . | toCSS }}
+    {{ $custom := $customTemplate | resources.ExecuteAsTemplate "css/custom.scss" . | toCSS  }}
+    {{ $css := slice  ($override) ($custom) | resources.Concat "assets/css/main.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.Permalink }}">
+
 
     {{/* Adds custom styles capability */}}
-    {{ $customTemplate := resources.Get "sass/custom.scss" }}
-    {{ if $customTemplate }}
-    {{ $custom := $customTemplate | resources.ExecuteAsTemplate "css/custom.scss" . | toCSS | minify }}
-    <link rel="stylesheet" href="{{ $custom.RelPermalink }}">
-    {{ end }}
 
+    {{ $js := resources.Get "js/themes.js" }}
+    <script src="{{ $js.Permalink }}"></script>
+
+
+    <script src="https://kit.fontawesome.com/468feb000a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gilda+Display">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
 
-    {{ template "_internal/google_analytics.html" . }}
 </head>

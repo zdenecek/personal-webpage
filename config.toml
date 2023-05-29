@@ -7,6 +7,7 @@ enableRobotsTXT = true
 copyright = " "
 defaultContentLanguage = 'en'
 
+
 [markup.goldmark.renderer]
   unsafe = true
 
@@ -31,46 +32,87 @@ title = true
     weight = 2
 
 # Main menu items
-# [[languages.en.menu.main]]
-#   name = "About"
-#   title = "About"
-#   url = "/about/"
-#   weight = -110
-# [[languages.en.menu.main]]
-#   name = "Posts"
-#   title = "Posts"
-#   url = "/post/"
-#   weight = -100
-  
-# [[languages.cs.menu.main]]
-#     name = "Tournaments"
-#     url = "/turnaje/"
+[[languages.en.menu.main]]
+  name = "Home"
+  title = "Home"
+  url = "/"
+  weight = -110
+[[languages.cs.menu.main]]
+  name = "Domů"
+  title = "Domovská stránka"
+  url = "/"
+  weight = -110
+[[languages.en.menu.main]]
+  name = "About me"
+  title = "About me"
+  url = "/about"
+  weight = -100
+[[languages.cs.menu.main]]
+  name = "O mně"
+  title = "O mně"
+  url = "/o-mne"
+  weight = -100
+[[languages.en.menu.main]]
+  name = "Contacts"
+  title = "Contacts"
+  url = "/contacts"
+  weight = -100
+[[languages.cs.menu.main]]
+  name = "Kontakty"
+  title = "Kontakty"
+  url = "/kontakty"
+  weight = -100
 
 # Index menu items
 
 [[languages.en.menu.index]]
-  name = "♣ Tournaments ♣"
+  name = "Projects"
+  title = "Project portfolio"
+  url = "projects/"
+  weight = 100
+
+[[languages.cs.menu.index]]
+  name = "Projekty"
+  title = "Projekty"
+  url = "projekty/"
+  weight = 100
+
+[[languages.en.menu.index]]
+  name = "Bridge Tournaments"
   title = "Bridge tournaments"
   url = "/tournaments/"
-  weight = -100
+  weight = 101
 
 [[languages.cs.menu.index]]
   name = "♣ Bridžové turnaje ♣"
   title = "Bridžové turnaje"
   url = "/turnaje/"
-  weight = -100
+  weight = 101
 
 [[languages.en.menu.index]]
   name = "Blog"
   title = "Blog"
   url = "blog/"
-  weight = -100
+  weight = 102
 
 [[languages.cs.menu.index]]
   name = "Blog"
   title = "Blog"
   url = "blog/"
-  weight = -100
+  weight = 102
+
+
+[[languages.en.menu.index]]
+  name = "CV"
+  title = "CV"
+  url = "cv/"
+  weight = 104
+
+[[languages.cs.menu.index]]
+  name = "Životopis"
+  title = "Životopis"
+  url = "zivotopis/"
+  weight = 104
 
 
 
@@ -87,7 +129,7 @@ title = true
     fontColor = "#212529"
   [[params.social]]
     fa_icon = "fab fa-github fa-1x"          # Font Awesome icon class
-    href = "http://github.com/zdenecek"      # Link to associate with icon (http://, https://, mailto:)
+    href = "https://github.com/zdenecek"      # Link to associate with icon (http://, https://, mailto:)
   [[params.social]]
     fa_icon = "fas fa-at fa-1x"
     href = "mailto:zdnek.tomis@gmail.com"

@@ -30,31 +30,11 @@
         </h2>
     </div>
     <div class="row justify-content-center">
+        {{- partial "menu.html" (dict "menu" .Site.Menus.main "page" . ) -}}
 
-        <ul id="nav-links" class="list-inline mb-2">
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-            <li class="list-inline-item">
-                <a class="badge badge-white {{if or ($currentPage.IsMenuCurrent " main" .)
-                   ($currentPage.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{
-                    .Name }}</a>
-            </li>
-            {{ end }}
-        </ul>
+        {{ if .IsHome }}
+        {{- partial "menu.html" (dict "menu" .Site.Menus.index "page" . ) -}}
+        {{ end }}
     </div>
-    {{ if .Scratch.Get "home" }}
-    <div class="row justify-content-center">
 
-        <ul id="nav-social" class="list-inline">
-            {{ range .Site.Params.social }}
-            <li class="list-inline-item mr-3">
-                <a href="{{ .href }}" target="_blank">
-                    <i class="{{ .fa_icon }} text-muted"></i>
-                </a>
-            </li>
-            {{ end }}
-        </ul>
-    </div>
-    {{ end }}
-    <hr />
 </header>

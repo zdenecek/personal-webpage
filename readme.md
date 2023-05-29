@@ -6,3 +6,19 @@ This is code for my personal webpage. It is a static site generated with [Hugo](
 You can view the site at [https://zdenektomis.eu](https://zdenektomis.eu).
 
 Automated deployment is handled by a GitHub Action.
+
+## Development
+
+To run the site locally, you need to have [Hugo](https://gohugo.io/) installed. Then run:
+
+```bash
+hugo server --watch  --disableFastRender
+```
+
+## Build
+
+To build the site, run:
+
+```bash
+hugo
+```

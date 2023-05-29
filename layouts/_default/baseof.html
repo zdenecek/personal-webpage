@@ -1,14 +1,23 @@
 <!doctype html>
 <html lang="{{ if .Site.LanguageCode }}{{ .Site.LanguageCode }}{{ else }}en{{ end }}">
+    
     {{- partial "head.html" . -}}
-    <body>
-        <div id="content" class="mx-auto">
+    
+    {{ $classes := .Params.classes }}
+
+    <body id="body" >
+        <div id="content" class="mx-auto {{ $classes }}" >
             {{ .Scratch.Set "home" .IsHome }}
+            {{ block "header" . }}
             {{- partial "header.html" . -}}
-            <div class="container">
+            {{ end }}
+            <div class="container main {{ if in .Params.tags "bridge" }} bridge {{end}}">
                 {{- block "main" . }}{{- end }}
             </div>
         </div>
+        {{ block "footer" . }}
         {{- partial "footer.html" . -}}
+        {{ end }}
+        
     </body>
 </html>

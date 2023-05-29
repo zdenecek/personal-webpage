@@ -2,13 +2,13 @@
 layout: index
 ---
 
-Welcome to my personal website! I am a computer science student currently pursuing my computer science degree at [the Faculty of Mathematics and Physics at Charles University](https://www.mff.cuni.cz/en).
+Welcome to my personal website! 
 
-This website serves as my little outlet and is for people who want to take a look at some of my work or interests.
+I am a computer science student currently pursuing my computer science degree at [the Faculty of Mathematics and Physics at Charles University](https://www.mff.cuni.cz/en). What you will find here is little outlet of mine for people who want to take a look at some of my work or interests.
 
-Feel free to contact me at my email address: [zdnek.tomis@gmail.com](mailto:zdnek.tomis@gmail.com).
+Feel free to contact me at [my email address](mailto:zdnek.tomis@gmail.com). Other contact information can be found on the [contacts page](/contacts) section.
 
 <span class="flag">![Czech version](/flag/cz.svg)</span>
 Tato stránka má též [českou verzi](/cs) / This website also has a [Czech version](/cs).
 
-This page uses Hugo with Devise as its theme, source code for this website is available on [GitHub](https://github.com/zdenecek/personal-webpage).
+This site is under construction. 

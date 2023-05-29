@@ -1,22 +1,7 @@
 {{ define "main" }}
-    <!-- To overwrite the default content for the theme which shows posts by 
-         category, populate your content/_index.html file. It will be rendered
-         instead of the default. For details on this configuration capability,
-         see https://gohugo.io/templates/homepage/#add-content-and-front-matter-to-the-homepage
-    -->
     {{ if .Content }}
         <div class="">
             {{ .Content }}
-        </div>
-        <div>
-            <ul id="nav-links" class="list-inline mt-4">
-                {{ $currentPage := . }}
-                {{ range .Site.Menus.index }}
-                <li class="list-inline-item ml-4">
-                    <a class="" href="{{  .URL | relLangURL }}" title="{{ .Title }}">{{.Name }}</a>
-                </li>
-                {{ end }}
-            </ul>
         </div>
     {{ else }}
         {{- partial "category-posts.html" . -}}

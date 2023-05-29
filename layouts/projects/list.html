@@ -1,0 +1,76 @@
+{{ define "main" }} {{ if .Content }}
+<div class="">{{ .Content }}</div>
+{{ end }}
+
+{{/* Fill in unranslated pages */}}
+{{ $pages := .Pages }}
+{{ $lang := .Language }}
+{{ range .Translations }}
+{{ $pages = $pages | lang.Merge .Pages }}
+{{ end }}
+
+
+<div id="project-list">
+    <ul class="list-unstyled">
+        {{ range sort $pages "Params.priority" }}
+        <li class="project">
+            {{ if .Params.image }} {{ $image := resources.GetMatch (print
+            "/images/" .Params.image)}} {{ $image := $image.Resize "x400"}}
+            <div class="project-image">
+                {{ if not .Params.only_preview }}
+                <a href="{{.Permalink}}">
+                    <img src="{{ $image.Permalink }}" alt="{{ .Title }}" />
+                </a>
+                {{ else }}
+                <img src="{{ $image.Permalink }}" alt="{{ .Title }}" />
+                {{ end }}
+            </div>
+            {{ end }}
+            <div class="project-main">
+                <div class="project-header">
+                    {{ if not .Params.only_preview }}
+
+                    <a href="{{.Permalink}}">
+                        <h3>{{ .Title }}</h3>
+                    </a>
+                    {{ else }}
+                    <h3>{{ .Title }}</h3>
+                    {{ end }} {{ if .Params.github }}
+                    <a
+                        href="{{ .Params.github }}"
+                        target="_blank"
+                        class="github-link"
+                    >
+                        <i class="fab fa-github fa-1x text-muted"></i>
+                    </a>
+                    {{ end }} {{ if .Params.web }}
+                    <a
+                        href="{{ .Params.web }}"
+                        target="_blank"
+                        class="github-link"
+                    >
+                        <i class="fa fa-link fa-1x text-muted"></i>
+                    </a>
+                    {{ end }}
+                </div>
+                <div class="description">
+                    {{ .Summary }} {{ if not .Params.only_preview }}
+
+                    <a href="{{.Permalink}}" class="link">Read more...</a>
+                    {{ end}}
+                </div>
+                {{ if .Params.project_tags }}
+                <div class="project-keywords">
+                    <span>Keywords:</span>
+
+                    {{ range $tag := split .Params.project_tags "|" }}
+                    <span class="badge">{{ $tag }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}
