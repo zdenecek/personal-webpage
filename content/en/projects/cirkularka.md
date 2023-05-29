@@ -8,8 +8,8 @@ github: https://github.com/zdenecek/cirkularka_bolt
 web: https://cirkularka.gsh.cz
 # image: projects/cirkularka.png
 priority: 70
+only_preview: true
 ---
 
-## Biblioteca - Library Management System
 
 

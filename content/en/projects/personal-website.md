@@ -6,9 +6,9 @@ summary: |
     Supports dark mode and is fully responsive.
 github: https://github.com/zdenecek/personal-website
 priority: 55
+image: projects/personal-website.png
 only_preview: true
 ---
 
-## Bonken
 
 
