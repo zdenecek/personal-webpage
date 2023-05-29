@@ -8,5 +8,3 @@ This website also has an [English version](/en) / Tato stránka má též [angli
 
 Můžete mi napsat email, moje adresa je [zdnek.tomis@gmail.com](mailto:zdnek.tomis@gmail.com), neváhejte se na mě obrátit.
 
-Zde je dnešní menu, snad v něm najdete něco, co potřebujete:
-
