@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae
-slug: curriculum-vitae
+slug: cv
 ---
 
 ## Curriculum Vitae
