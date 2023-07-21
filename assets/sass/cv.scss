@@ -1,6 +1,6 @@
 .cv {
     .subheading {
-        font-size: large;
+        font-size: r;
         margin-top: -0.5em;
         margin-bottom: 0.5em;
     }
@@ -40,7 +40,7 @@
 
     .education .header,
     .experience .header {
-        font-size: large;
+        font-size: larger;
     }
 
     .education .left,
@@ -54,10 +54,13 @@
 }
 
 @media print {
+
+
     #content {
         max-width: 100% !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        font-size: 150%;
     }
 
     .cv-body {
