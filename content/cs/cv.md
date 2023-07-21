@@ -1,6 +1,7 @@
 ---
 title: Životopis
 slug: zivotopis
+layout: cv
 ---
 
 ## Curriculum Vitae

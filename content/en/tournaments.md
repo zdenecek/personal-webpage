@@ -10,9 +10,9 @@ tags: bridge
 Here I keep a list of tournaments I directed
 
 ## 2023
-
+- [Highschools cup (Junior Championship of Havířov)](https://jmh.bridzhavirov.cz/2023/)
 - Tournaments in the Prague Bridge Club
-  - Skupinová B Spring 2023
+  -  [Skupinová B Spring 2023](https://vysledky.zdenektomis.eu/tournament/skupinova-b-jaro-2023)
   -  Wednesday pair tournaments
 - Czech Bridge Tour Havířov 
   - [Main pairs tournament](https://matrikacbs.cz/Detail-turnaje.aspx?id=4853) ([documentation](http://www.bridgebase.6f.sk/results/ZT/2023/vc-havirov/start.php))

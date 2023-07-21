@@ -1,0 +1,92 @@
+{{ define "header" }} {{ $data := index .Site.Data.cv .Site.Language.Lang }}
+<div class="cv cv-header">
+    <h1>{{ $data.name }}</h1>
+    {{ if $data.title }}
+    <div class="subheading">{{ $data.title | markdownify }}</div>
+    {{ end }}
+</div>
+
+{{ end }} {{ define "main" }} {{ $data := index .Site.Data.cv
+.Site.Language.Lang }}
+<div class="cv cv-body">
+    <div>
+        <h2>{{ T "cv.contacts"}}</h2>
+        <div class="grid contacts">
+            <div class="left">{{ T "cv.contacts.email"}}</div>
+            <a href="mailto:{{$data.email}}">{{ $data.email }}</a>
+            <div class="left">{{ T "cv.contacts.phone"}}</div>
+            <a href="tel:{{ replace $data.phone " " ""}}">{{ $data.phone }}</a>
+            <div class="left">{{ T "cv.contacts.website"}}</div>
+            <a href="https://{{$data.website}}">{{ $data.website }}</a>
+        </div>
+    </div>
+
+    <div>
+        <h2>{{ T "cv.education"}}</h2>
+        <div class="grid education">
+            {{ range $data.education }}
+            <div class="left">
+                <span>{{.from}}</span>
+                -
+                <span>{{.to}}</span>
+            </div>
+            <div>
+                <div class="header">
+                    <span>{{.school}}</span>
+                    ,
+                    <span>{{.location}}</span>
+                </div>
+                {{ if .faculty }}
+                <div>{{.faculty}}</div>
+                {{end}}
+                <div class="description">{{.description | markdownify }}</div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
+    {{ if $data.experience }}
+    <div>
+        <h2>{{ T "cv.experience"}}</h2>
+        <div class="grid experience">
+            {{ range $data.experience }}
+            <div class="left">
+                <span>{{.from}}</span>
+                -
+                <span>{{.to}}</span>
+            </div>
+            <div>
+                <div class="header">{{.position}}</div>
+                <div><a href="{{.employer_url}}">{{.employer }}</a></div>
+                <div>{{.description | markdownify }}</div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }} {{ if $data.skills }}
+    <div>
+        <h2>{{ T "cv.skills"}}</h2>
+        <div class="grid skills">
+            {{ range $data.skills }}
+            <div class="left">{{ .title }}</div>
+            <div>
+                {{ range .items }}
+                <div>{{ . }}</div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }} {{ if $data.interests }}
+    <div>
+        <h2>{{ T "cv.interests"}}</h2>
+        <ul class="interests">
+            {{ range $data.interests }}
+            <div>{{.}}</div>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+</div>
+
+{{ end }}

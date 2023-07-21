@@ -12,8 +12,9 @@ Na této stránce vedu seznam turnajů, které jsem řídil
 
 ## 2023
 
+- [Středoškolský pohár hraný jako součást Juniorského Mistrovství Havířova](https://jmh.bridzhavirov.cz/2023/)
 - Turnaje v Bridžovém klubu Praha
-  - Skupinová B Jaro 2023
+  - [Skupinová B Jaro 2023](https://vysledky.zdenektomis.eu/tournament/skupinova-b-jaro-2023) (Nový formát prezentace výsledků, který jsem vytvořil pro účely BKP) 
   - Středeční párové turnaje
 - Czech Bridge Tour Havířov 
   - [Hlavní párový turnaj](https://matrikacbs.cz/Detail-turnaje.aspx?id=4853) ([dokumentace](http://www.bridgebase.6f.sk/results/ZT/2023/vc-havirov/start.php))

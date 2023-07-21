@@ -1,4 +1,4 @@
-<header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
+
 
 
     {{ if .Scratch.Get "home" }}
@@ -24,17 +24,16 @@
                 {{ if isset .Site.Params "header_title" }}
                 {{ .Site.Params.header_title }}
                 {{ else }}
-                Your Name
+                Zdeněk Tomis
                 {{ end }}
             </a>
         </h2>
     </div>
     <div class="row justify-content-center">
         {{- partial "menu.html" (dict "menu" .Site.Menus.main "page" . ) -}}
-
-        {{ if .IsHome }}
-        {{- partial "menu.html" (dict "menu" .Site.Menus.index "page" . ) -}}
-        {{ end }}
     </div>
-
-</header>
+    {{ if .IsHome }}
+    <div class="row justify-content-center">
+    {{- partial "menu.html" (dict "menu" .Site.Menus.index "page" . ) -}}
+    </div>
+    {{ end }}

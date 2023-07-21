@@ -1,0 +1,18 @@
+- id: cv
+  translation: Životopis
+- id: cv.contacts
+  translation: Kantaktní informace
+- id: cv.contacts.phone
+  translation: Telefon
+- id: cv.contacts.email
+  translation: Emailová adresa
+- id: cv.contacts.website
+  translation: Web
+- id: cv.education
+  translation: Vzdělání
+- id: cv.skills
+  translation: Dovednosti
+- id: cv.experience
+  translation: Pracovní zkušenosti
+- id: cv.interests
+  translation: Zájmy

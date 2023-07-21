@@ -1,0 +1,84 @@
+---
+en: 
+  name: Zdeněk Tomis
+  title: Software developer
+  email: zdnek.tomis@gmail.com
+  phone: +420 732 767 888
+  website: "zdenektomis.eu"
+  about: 
+  education:
+    - school: Charles University
+      faculty: Faculty of Mathematics and Physics
+      location: Prague, Czech Republic
+      from: 2021
+      to: present
+      description: Bachelors degree in Computer Science
+    - school: Grammar School 
+      location: Havířov, Czech Republic
+      from: 2016
+      to: 2021
+  experience:
+    - from: 2023
+      to: present
+      position: SDK Developer
+      employer: Ataccama
+      employer_url: https://www.ataccama.com/
+      description: 
+  skills:
+    - title: Technical
+      items:
+      - "Knowledge of programming languages: Java, C#, Python, C++"
+      - "Web developement, experience with: Vue.js, Laravel, Typescript, Node.js"
+      - software engineering
+    - title: Languages
+      items:
+        - Czech - native
+        - English - proficient
+        - German - good (certified for C1 in 2020 - Das Deutsche Sprachdiplom der Kultusministerkonferenz, Stufe II)
+    - title: Other
+      items:
+        - Drivers licence B
+  interests:
+    - bridge, literature, languages, bike, hiking
+cs: 
+  name: Zdeněk Tomis
+  title: Softwarový vývojář
+  email: zdnek.tomis@gmail.com
+  phone: +420 732 767 888
+  website: "zdenektomis.eu/cs"
+  about: 
+  education:
+    - school: Univerzita karlova
+      faculty: Matematicko-Fyzikální fakulta
+      location: Praha
+      from: 2021
+      to: součastnost
+      description: Bachelors degree in Computer Science
+    - school: Gymnázium 
+      location: Havířov
+      from: 2016
+      to: 2021
+  experience:
+    - from: 2023
+      to: součastnost
+      position: SDK Vývojář
+      employer: Ataccama
+      employer_url: https://www.ataccama.com/
+      description: 
+  skills:
+    - title: Technické
+      items:
+      - "znalost programovacích jazyků: Java, C#, Python, C++"
+      - "webové aplikcae, zkušenosti s: Vue.js, Laravel, Typescript, Node.js"
+      - softwarové inženýrství
+    - title: Jazyky
+      items:
+        - Čeština - rodilý mluvčí
+        - English - velmi dobrý
+        - German - dobrý (certifikát na úroveň C1 v roce 2020 - Das Deutsche Sprachdiplom der Kultusministerkonferenz, Stufe II)
+    - title: Jiné
+      items:
+        - Řidičský průkaz B
+        - Zbrojní průkaz B
+  interests:
+    - bridž, literatura, jazyky, kolo, procházky

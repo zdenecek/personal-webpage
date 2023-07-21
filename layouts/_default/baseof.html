@@ -8,9 +8,11 @@
     <body id="body" >
         <div id="content" class="mx-auto {{ $classes }}" >
             {{ .Scratch.Set "home" .IsHome }}
+            <header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
             {{ block "header" . }}
             {{- partial "header.html" . -}}
             {{ end }}
+            </header>
             <div class="container main {{ if in .Params.tags "bridge" }} bridge {{end}}">
                 {{- block "main" . }}{{- end }}
             </div>

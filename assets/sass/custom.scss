@@ -1,5 +1,7 @@
 @import "./projects.scss";
 @import "./themes.scss";
+@import "./cv.scss";
+
 
 @mixin unstyle-list {
     list-style: none;
@@ -88,7 +90,7 @@ img#home-image {
 .menu {
     display: flex;
     flex-direction: row;
-    gap: 0.2em;
+    gap: 1em;
     flex-wrap: wrap;
     justify-content: center;
 
@@ -98,6 +100,7 @@ img#home-image {
             text-decoration: none;
         }
     }
+    
 }
 
 .not-found {

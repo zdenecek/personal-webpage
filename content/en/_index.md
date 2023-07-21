@@ -11,4 +11,3 @@ Feel free to contact me at [my email address](mailto:zdnek.tomis@gmail.com). Oth
 <span class="flag">![Czech version](/flag/cz.svg)</span>
 Tato stránka má též [českou verzi](/cs) / This website also has a [Czech version](/cs).
 
-This site is under construction. 

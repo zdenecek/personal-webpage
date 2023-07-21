@@ -1,0 +1,18 @@
+- id: cv
+  translation: Curriculum Vitae
+- id: cv.contacts
+  translation: Contact information
+- id: cv.contacts.phone
+  translation: Phone
+- id: cv.contacts.email
+  translation: Email
+- id: cv.contacts.website
+  translation: Website
+- id: cv.education
+  translation: Education
+- id: cv.skills
+  translation: Skills
+- id: cv.experience
+  translation: Experience
+- id: cv.interests
+  translation: Interests

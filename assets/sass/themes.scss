@@ -1,14 +1,14 @@
 
 // From
 // https://medium.com/@katiemctigue/how-to-create-a-dark-mode-in-sass-609f131a3995
-
+$theme-map: null;
 
 $themes: (
-        default: (
+        light: (
             primary: #0b71bf,
             text: #000,
             header-text: #212529,
-            visited: #460b89,
+            visited: #610b89,
             background: #fff,
         ),
         dark: (
