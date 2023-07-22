@@ -2,8 +2,6 @@
 title: Životopis
 slug: zivotopis
 layout: cv
+description: Zdeněk Tomis - životopis - softwarový vývojář
 ---
 
-## Curriculum Vitae
-
-Tato sekce bude aktualizována v následujících dnech.

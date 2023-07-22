@@ -118,7 +118,7 @@ title = true
 
 # Configuration Features
 [params]
-  description = "Computer Science Student at MFF CU"      # Your meta description of the site
+  description = "site.description"      # Your meta description of the site
   header_title = "Zdeněk Tomis"              # Your header title
   header_subtitle = "" # Your header subtitle
   home_image = "/images/avatar.jpg"          # Path to header image starting from the static directory

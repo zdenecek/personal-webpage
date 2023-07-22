@@ -1,3 +1,7 @@
+
+- id: site.description
+  translation: "Moje osobní stránka. Na této stránce naleznete: mé portfolio, blog, výsledky turnajů, projekty, a taky všechno možné."
+
 - id: cv
   translation: Životopis
 - id: cv.contacts

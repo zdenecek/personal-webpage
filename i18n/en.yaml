@@ -1,3 +1,7 @@
+
+- id: site.description
+  translation: "Personal page of Zdeněk Tomis. To be found: CV, portfolio, blog, tournament results and much more."
+  
 - id: cv
   translation: Curriculum Vitae
 - id: cv.contacts
