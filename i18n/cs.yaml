@@ -1,7 +1,7 @@
 - id: cv
   translation: Životopis
 - id: cv.contacts
-  translation: Kantaktní informace
+  translation: Kontaktní informace
 - id: cv.contacts.phone
   translation: Telefon
 - id: cv.contacts.email

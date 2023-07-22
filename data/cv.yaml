@@ -37,7 +37,7 @@ en:
         - German - good (certified for C1 in 2020 - Das Deutsche Sprachdiplom der Kultusministerkonferenz, Stufe II)
     - title: Other
       items:
-        - Drivers licence B
+        - European driving licence class B
   interests:
     - bridge, literature, languages, bike, hiking
 cs: 
@@ -53,7 +53,7 @@ cs:
       location: Praha
       from: 2021
       to: součastnost
-      description: Bachelors degree in Computer Science
+      description: Bakalářské studium Informatika se specializací Programování a vývoj software
     - school: Gymnázium 
       location: Havířov
       from: 2016
@@ -69,16 +69,16 @@ cs:
     - title: Technické
       items:
       - "znalost programovacích jazyků: Java, C#, Python, C++"
-      - "webové aplikcae, zkušenosti s: Vue.js, Laravel, Typescript, Node.js"
+      - "webové aplikace, zkušenosti s: Vue.js, Laravel, Typescript, Node.js"
       - softwarové inženýrství
     - title: Jazyky
       items:
-        - Čeština - rodilý mluvčí
-        - English - velmi dobrý
-        - German - dobrý (certifikát na úroveň C1 v roce 2020 - Das Deutsche Sprachdiplom der Kultusministerkonferenz, Stufe II)
+        - česky - rodilý mluvčí
+        - anglicky - velmi dobrý
+        - německy - dobrý (certifikát na úroveň C1 v roce 2020 - Das Deutsche Sprachdiplom der Kultusministerkonferenz, Stufe II)
     - title: Jiné
       items:
-        - Řidičský průkaz B
-        - Zbrojní průkaz B
+        - řidičský průkaz sk. B
+        - zbrojní průkaz sk. B
   interests:
-    - bridž, literatura, jazyky, kolo, procházky
+    - bridž, literatura, jazyky, ježdění na kole, procházky po horách
