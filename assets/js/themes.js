@@ -36,4 +36,17 @@ document.addEventListener("DOMContentLoaded", function () {
         root.classList.add(newTheme);
         theme = newTheme;
     }
+
+    for (const item of document.getElementsByClassName('animate')) {
+        item.addEventListener('click', function() {
+            this.classList.add('animation');
+          
+            this.addEventListener('animationend', () => {
+              this.classList.remove('animation');
+            });
+          });
+    }
+
+   
+
 });

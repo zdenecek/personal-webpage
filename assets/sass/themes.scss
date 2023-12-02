@@ -10,13 +10,15 @@ $themes: (
             header-text: #212529,
             visited: #610b89,
             background: #fff,
+            font-family: '"Gilda Display", Roboto, Helvetica, serif'
         ),
         dark: (
-            primary: rgb(11, 144, 11),
-            visited: rgb(12, 125, 125),
-            text: white,
+            primary: #66BB6A,
+            visited: #66BB6A,
+            text: lighten(lightgray, 10),
             header-text: white,
             background: #191c1f,
+            font-family: 'Mukta, Roboto, sans-serif',
         ),
 );
 

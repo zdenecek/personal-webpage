@@ -3,17 +3,13 @@ title: Kontakty
 slug: kontakty
 classes: contacts
 ---
-
-# kontakty a odkazy
-
-- <i class="fab fa-github fa-2x"></i>
-    <span>Github: [zdenecek](https://github.com/zdenecek)</span>
-- <i class="fa fa-envelope fa-2x"></i>
-    <span>Email: [zdnek.tomis@gmail.com](mailto:zdnek.tomis@gmail.com)</span>
-- <i class="fab fa-discord fa-2x"></i>
-    <span>Discord: [zdenecek](https://discordapp.com/users/zdenecek#4867)</span>
-- <i class="fab fa-telegram fa-2x"></i>
-    <span>Telegram: [zdenektomis](https://t.me/zdenektomis)</span>
-
+<div class="contact-list">
+<h2>Kontakty</h2>
+<div><a href="mailto:zdnek.tomis@gmail.com"><i class="fa fa-envelope fa-xl"></i><span>zdnek.tomis@gmail.com</span></a>
+ <i class="fa fa-copy fa-md" onclick="navigator.clipboard.writeText('zdnek.tomis@gmail.com');"> 
+</div>
+<div><a href="https://www.linkedin.com/in/zden%C4%9Bk-tomis-2a9096242/"><i class="fab fa-linkedin fa-xl"></i><span>Zdeněk Tomis</span></a></div>
+<div><a href="https://github.com/zdenecek"><i class="fab fa-github fa-xl"></i><span>zdenecek</span></a></div>
+</div>
 
        

@@ -19,7 +19,7 @@
     </div>
     {{ end }}
     <div class="row justify-content-center">
-        <h2 class="m-0 mb-2 mt-4">
+        <h1 class="m-0 mb-2 mt-4 main-header">
             <a href="{{ .Site.Home.Permalink | absLangURL }}" class="text-decoration-none">
                 {{ if isset .Site.Params "header_title" }}
                 {{ .Site.Params.header_title }}
@@ -27,7 +27,7 @@
                 Zdeněk Tomis
                 {{ end }}
             </a>
-        </h2>
+        </h1>
     </div>
     <div class="row justify-content-center">
         {{- partial "menu.html" (dict "menu" .Site.Menus.main "page" . ) -}}

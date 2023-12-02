@@ -78,15 +78,15 @@ title = true
   weight = 100
 
 [[languages.en.menu.index]]
-  name = "Bridge Tournaments"
-  title = "Bridge tournaments"
-  url = "/tournaments/"
+  name = "Bridge"
+  title = "Bridge"
+  url = "bridge/"
   weight = 101
 
 [[languages.cs.menu.index]]
-  name = "♣ Bridžové turnaje ♣"
-  title = "Bridžové turnaje"
-  url = "/turnaje/"
+  name = "Bridž"
+  title = "Bridž"
+  url = "bridz/"
   weight = 101
 
 [[languages.en.menu.index]]
@@ -100,7 +100,6 @@ title = true
   title = "Blog"
   url = "blog/"
   weight = 102
-
 
 [[languages.en.menu.index]]
   name = "CV"

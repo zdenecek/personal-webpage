@@ -11,3 +11,8 @@ Feel free to contact me at [my email address](mailto:zdnek.tomis@gmail.com). Oth
 <span class="flag">![Czech version](/flag/cz.svg)</span>
 Tato stránka má též [českou verzi](/cs) / This website also has a [Czech version](/cs).
 
+<div id="contacts-inline">
+<div><a href="mailto:zdnek.tomis@gmail.com"><i class="fa fa-envelope fa-xl"></i></a></div>
+<div><a href="https://www.linkedin.com/in/zden%C4%9Bk-tomis-2a9096242/"><i class="fab fa-linkedin fa-xl"></i></a></div>
+<div><a href="https://github.com/zdenecek"><i class="fab fa-github fa-xl"></i></a></div>
+</div>
