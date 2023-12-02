@@ -9,6 +9,12 @@ Automated deployment is handled by a GitHub Action.
 
 ## Development
 
+After cloning the repository, you need to initialize the theme submodule:
+
+```bash
+git submodule update --init --recursive
+```
+
 To run the site locally, you need to have [Hugo](https://gohugo.io/) installed. Then run:
 
 ```bash
@@ -16,6 +22,12 @@ hugo server --watch  --disableFastRender
 ```
 
 ## Build
+
+After cloning the repository, you need to initialize the theme submodule:
+
+```bash
+git submodule update --init --recursive
+```
 
 To build the site, run:
 
