@@ -14,6 +14,11 @@ body {
         font-family: t("font-family");
         background-color: t("background");
     }
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 img#home-image {
@@ -119,11 +124,17 @@ h1 {
     justify-content: center;
 
     @include themed() {
-        a {
+        a.menu-link {
+            transition: color .3s ease-in-out;
             color: t(primary);
             text-decoration: none;
+            &:hover {
+                color: t(text);
+            }
         }
     }
+
+   
 
 }
 
