@@ -11,7 +11,7 @@ Na této stránce vedu seznam turnajů, které jsem řídil
 
 ## 2024
 
- - [2. liga] [(dokumentace)](https://bridge.zdenektomis.eu/2024/2-liga/)
+ - [2. liga](https://bridge.zdenektomis.eu/2024/2-liga/) [(dokumentace)](https://bridge.zdenektomis.eu/2024/2-liga/)
     - [nasazení](https://bridge.zdenektomis.eu/2024/2-liga/nasazeni)
 
 ## 2023

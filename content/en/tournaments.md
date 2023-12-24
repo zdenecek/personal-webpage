@@ -11,7 +11,7 @@ Here I keep a list of tournaments I directed
 
 ## 2024
 
- - [Czech 2nd league] [(documentation)](https://bridge.zdenektomis.eu/2024/2-liga/)
+ - [Czech 2nd league](https://bridge.zdenektomis.eu/2024/2-liga/) [(documentation)](https://bridge.zdenektomis.eu/2024/2-liga/)
     - [match schedule](https://bridge.zdenektomis.eu/2024/2-liga/nasazeni)
 
 ## 2023
