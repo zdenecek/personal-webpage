@@ -9,10 +9,14 @@ tags: bridge
 
 Na této stránce vedu seznam turnajů, které jsem řídil
 
+## 2024
+
+ - [2. liga] [(dokumentace)](https://bridge.zdenektomis.eu/2024/2-liga/)
+    - [nasazení](https://bridge.zdenektomis.eu/2024/2-liga/nasazeni)
 
 ## 2023
 
-  - [3. liga](https://matrikacbs.cz/Detail-turnaje.aspx?id=5055) [(dokumentace)](https://bridge.zdenektomis.eu/2023/3-liga/)
+  - [3. liga](https://matrikacbs.cz/Detail-turnaje.aspx?id=5061) [(dokumentace)](https://bridge.zdenektomis.eu/2023/3-liga/)
 - [Mistrovství ČR Mixových párů](https://www.matrikacbs.cz/Detail-turnaje.aspx?id=5056) [(dokumentace)](https://bridge.zdenektomis.eu/2023/mcr-mix/)
 - Středoškolský pohár (Juniorské mistrovství Havířova) [(dokumentace)](https://jmh.bridzhavirov.cz/2023/)
   - [Hlavní párový turna](https://matrikacbs.cz/Detail-turnaje.aspx?id=4906)

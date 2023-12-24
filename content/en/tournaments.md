@@ -9,8 +9,14 @@ tags: bridge
 
 Here I keep a list of tournaments I directed
 
+## 2024
+
+ - [Czech 2nd league] [(documentation)](https://bridge.zdenektomis.eu/2024/2-liga/)
+    - [match schedule](https://bridge.zdenektomis.eu/2024/2-liga/nasazeni)
+
 ## 2023
-- [Czech 3rd league](https://matrikacbs.cz/Detail-turnaje.aspx?id=5055) [(documentation)](https://bridge.zdenektomis.eu/2023/3-liga/)
+
+  - [Czech 3rd league](https://matrikacbs.cz/Detail-turnaje.aspx?id=5061) [(documentation)](https://bridge.zdenektomis.eu/2023/3-liga/)
 - [Czech Mixed Pairs Championship](https://www.matrikacbs.cz/Detail-turnaje.aspx?id=5056) [(documentation)](https://bridge.zdenektomis.eu/2023/mcr-mix/)
 - Highschools cup (Junior Championship of Havířov) [(documentation)](https://jmh.bridzhavirov.cz/2023/)
   - [Main pairs tournament](https://matrikacbs.cz/Detail-turnaje.aspx?id=4906)
