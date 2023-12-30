@@ -19,6 +19,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    padding-bottom: 4em;
 }
 
 img#home-image {
@@ -26,7 +28,6 @@ img#home-image {
 }
 
 #content {
-    max-width: 600px;
 
     @include themed() {
         color: t("text");
@@ -44,6 +45,18 @@ img#home-image {
             list-style-type: "\2662";
         }
     }
+
+    &.calendar {
+        max-width: 100%;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+
 }
 
 h1 {

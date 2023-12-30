@@ -42,16 +42,19 @@ title = true
   title = "Domovská stránka"
   url = "/"
   weight = -110
+
+
 [[languages.en.menu.main]]
-  name = "About me"
-  title = "About me"
-  url = "/about"
-  weight = -100
+  name = "CV"
+  title = "CV"
+  url = "cv/"
+  weight = -104
+
 [[languages.cs.menu.main]]
-  name = "O mně"
-  title = "O mně"
-  url = "/o-mne"
-  weight = -100
+  name = "Životopis"
+  title = "Životopis"
+  url = "zivotopis/"
+  weight = -104
 [[languages.en.menu.main]]
   name = "Contacts"
   title = "Contacts"
@@ -63,8 +66,19 @@ title = true
   url = "/kontakty"
   weight = -100
 
+
 # Index menu items
 
+[[languages.en.menu.index]]
+  name = "About me"
+  title = "About me"
+  url = "/about"
+  weight = -100
+[[languages.cs.menu.index]]
+  name = "O mně"
+  title = "O mně"
+  url = "/o-mne"
+  weight = -100
 [[languages.en.menu.index]]
   name = "Projects"
   title = "Project portfolio"
@@ -102,15 +116,15 @@ title = true
   weight = 102
 
 [[languages.en.menu.index]]
-  name = "CV"
-  title = "CV"
-  url = "cv/"
+  name = "Calendar"
+  title = "Calendar"
+  url = "calendar/"
   weight = 104
 
 [[languages.cs.menu.index]]
-  name = "Životopis"
-  title = "Životopis"
-  url = "zivotopis/"
+  name = "Kalendář"
+  title = "Kalendář"
+  url = "kalendar/"
   weight = 104
 
 
