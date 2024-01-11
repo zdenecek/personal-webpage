@@ -27,9 +27,9 @@ en:
   skills:
     - title: Technical
       items:
-      - "Knowledge of programming languages: Java, C#, Python, C++"
+      - "Knowledge of programming languages: Python; Java, C#; C++"
       - "Web developement, experience with: Vue.js, Laravel, Typescript, Node.js"
-      - software engineering
+      - software engineering skills
     - title: Languages
       items:
         - Czech - native
@@ -68,7 +68,7 @@ cs:
   skills:
     - title: Technické
       items:
-      - "znalost programovacích jazyků: Java, C#, Python, C++"
+      - "znalost programovacích jazyků: Python; Java, C#; C++"
       - "webové aplikace, zkušenosti s: Vue.js, Laravel, Typescript, Node.js"
       - softwarové inženýrství
     - title: Jazyky
